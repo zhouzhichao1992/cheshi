@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+/* 网页头部 */
+#header_wrapper{
+	height:71px;
+	background:#FFFFFF;	
+}
+.header{
+	height:71px;
+	background:#FFFFFF;	
+	border-bottom: 1px solid #919191;
+	position: relative;
+
+}
+.content{
+	width:1224px;
+	margin:0 auto;	
+}
+.header .logo{
+	width:185px;
+	height:46px;
+	float:left;	
+	margin-top:20px;
+	margin-left:20px;
+	_display:inline;
+	
+}
+.header .logo a{
+	display:block;
+	width:185px;
+	height:46px;
+	background:url(../img/logo18546.png) no-repeat;
+	text-indent:-9999px;	
+}
+#img{
+	width: 1212px;
+	height: 141px;
+	margin: 5px 0 0 150px;
+}
+ul{
+	list-style: none;
+}
+.title{
+	width: 800px;
+	margin: 20px auto;
+	font-size: 20px;
+	font-weight: bold;
+}
+.title:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.title li{
+	width: 130px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	border-right: 2px solid #AABBCC;
+}
+.title li:last-child{
+	border-right: none;
+}
+.line{
+	width: 800px;
+	margin: 20px auto;
+}
+.carts{
+	width: 800px;
+	margin: 20px auto;
+	border: 3px solid #CCCCCC;
+}
+.carts .title{
+	height: 120px;
+}
+.carts .title li{
+	height: 120px;
+	line-height: 120px;
+	border-bottom: 2px dotted #CCCCCC;
+	border-top: 2px dotted #CCCCCC;
+	margin-bottom: 5px;
+}
+.carts .title li img{
+	height: 100px;
+}
+.carts .title li p{
+	padding: 5px 0;
+}
+.carts .title li input[type=button]{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+#footer li{
+	width: 180px;
+}

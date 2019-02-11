@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+/* 网页头部 */
+#header_wrapper{
+	height:85px;
+	background:#FFFFFF;	
+}
+.header{
+	height:85px;
+	background:#FFFFFF;	
+	border-bottom: 1px solid #919191;	
+}
+.content{
+	width:1500px;
+	margin:0 auto;	
+}
+.header .logo{
+	width:185px;
+	height:46px;
+	float:left;	
+	margin-top:20px;
+	margin-left:20px;
+	_display:inline;
+	
+}
+.header .logo a{
+	display:block;
+	width:185px;
+	height:46px;
+	background:url(../img/logo18546.png) no-repeat;
+	text-indent:-9999px;
+	
+}
+#main_wrapper{
+	height: 700px;
+	position: relative;
+	
+}
+.img{
+	position: absolute;
+	left:200px;
+	top:140px;
+	
+}
+.main{
+	position: relative;
+}
+.img img{
+	height: 300px;
+	width: 520px;
+}
+.registerMain{
+	width: 530px;
+	height: 620px;
+	float: left;
+	position: absolute;
+	top: 80px;
+	right: 120px;
+	
+}
+.registerMain input{
+	height: 54px;
+	margin-bottom: 11px;
+}
+.registerMain input:nth-of-type(1){
+	width: 327px;
+}
+.registerMain input:nth-of-type(2){
+	width: 327px;
+}
+.registerMain input:nth-of-type(3){
+	width: 515px;
+}
+.registerMain input:nth-of-type(4){
+	width: 515px;
+}
+
+
+
+
+

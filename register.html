@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/registerindex.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<body>
+		<div id="header_wrapper">
+			<div class="header content">
+				<div class="logo">
+					<a href="#">凡客</a>
+				</div>
+
+			</div>
+		</div>
+		<div id="main_wrappper">
+			<div class="main content">
+				<div class="img">
+					<img src="img/xhsm_19.jpg" />
+				</div>
+				<div class="registerMain">
+					<div></div>
+					<form id="form" name="reg" action="php/register1.php" method="get">
+
+							<input type="text" id="yzm" placeholder="验证码" />
+					  			<span id="yz" style=" background:url(img/1.png) 0px 0px;font-size:18px;width:140px;text-align: center; height: 54px;margin-top: 15px; line-height:54px;border: 1px solid #919191;display: inline-block;"></span>
+					  			<a href="javascript:;" id='btn'>看不清</a>						
+								<br />
+
+							<input type="text" id="uname" name="uName" placeholder="请输入手机号" /><br />
+												
+
+						
+							<input type="password" id="pwd" name="pwd" placeholder="6-20个字符只能包含大小写字母、数字和非空格字符" /><br />
+							<input type="submit"  placeholder="立即注册" />
+						<dl>
+					</form>
+					
+				</div>
+				
+			</div>
+		</div>
+	
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html>

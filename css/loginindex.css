@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+/* 网页头部 */
+#header_wrapper{
+	height:85px;
+	background:#FFFFFF;	
+}
+.header{
+	height:85px;
+	background:#FFFFFF;	
+	border-bottom: 1px solid #919191;	
+}
+.content{
+	width:1500px;
+	margin:0 auto;	
+}
+.header .logo{
+	width:185px;
+	height:46px;
+	float:left;	
+	margin-top:20px;
+	margin-left:20px;
+	_display:inline;
+	
+}
+.header .logo a{
+	display:block;
+	width:185px;
+	height:46px;
+	background:url(../img/logo18546.png) no-repeat;
+	text-indent:-9999px;	
+}
+.header .help{
+	float: right;
+	line-height: 120px;
+	
+}
+#main_wrapper{
+	height: 700px;
+	position: relative;
+	
+}
+.img{
+	position: absolute;
+	left:200px;
+	top:140px;
+	
+}
+.main{
+	position: relative;
+}
+.img img{
+	height: 300px;
+	width: 520px;
+}
+.registerMain{
+	width: 500px;
+	height: 510px;
+	float: left;
+	position: absolute;
+	top: 120px;
+	right: 128px;
+	border: 1px solid #d1d1d1;
+	
+}
+.type{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.type div{
+	
+	width: 248px;
+	height: 48px;
+	line-height: 48px;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #d1d1d1;
+	
+}
+.type .pt{
+	text-align: center;
+}
+.type .pt:hover{
+	background: #0e0101;
+}
+.type .ks{
+	text-align: center;
+}
+.type .ks:hover{
+	background: #0e0101;
+}
+.login{
+	position: relative;
+	display: block;
+
+	
+}
+.login input{
+	width: 450px;
+	height: 56px;
+	border: 1px solid #d1d1d1;
+	margin-left: 32px;
+	margin-top: 29px;	
+}
+.login input:nth-of-type(3){
+	margin-top: 52px;
+}
+.login p{
+	position: absolute;
+	top: 208px;
+	right: 26px;
+	
+}
+.login2{
+	position: relative;	
+	display: none;	
+}
+.login2 input{
+	width: 450px;
+	height: 56px;
+	border: 1px solid #d1d1d1;
+	margin-left: 10px;
+	margin-top: 10px;	
+}
+.login2 input:nth-of-type(1){
+	width: 316px;
+}
+.login2 input:nth-of-type(2){
+	width: 126px;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	
+}
+.login2 input:nth-of-type(3){
+	margin-top: 10px;
+}
+.icons{
+	height: 121px;
+	width: 500px;
+	border-top: 1px solid #000000;
+	position: absolute;
+	top: 389px;
+}
+.icons img{
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	top: 40px;
+	left: 26px;
+}

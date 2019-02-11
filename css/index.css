@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+/* 网页头部 */
+#header_wrapper{
+	height:40px;
+	background:#f7f7f7;	
+}
+.header{
+	height:40px;
+	background:#f7f7f7;	
+	position: relative;
+	
+}
+.content{
+	width:1500px;
+	margin:0 auto;	
+}
+.header a:nth-child(1){
+	line-height: 40px;
+	color: #808080;
+	font-size: 14px;
+	position: absolute;
+	right: 234px;	
+}
+.header a:nth-child(2){
+	line-height: 40px;
+	color: #808080;
+	font-size: 14px;
+	position: absolute;
+	right: 302px;	
+		
+}
+
+#search_wrapper{
+	height: 100px;
+}
+.search{
+	height: 100px;
+	position: relative;
+}
+.search input:nth-child(1){
+	height: 35px;
+	width: 324px;
+	border: 1px solid #90bafe;
+	position: absolute;
+	top:35px;
+	right: 221px;
+	
+}
+.search input:nth-child(2){
+	height: 35px;
+	width: 60px;
+	border: 1px solid #cacaca;
+	background: #b81c21;
+	color: #FFFFFF;
+	position: absolute;
+	top:35px;
+	right: 161px;
+	
+}
+.carts{
+	width:134px;
+	height: 35px;
+	background: #b81c21;
+	color: #FFFFFF;	
+	font-size: 16px;
+	line-height: 35px;
+	position: absolute;
+	top:35px;
+	right: 0;
+}
+#nav_wrapper{
+	height: 50px;
+	
+}
+.nav{
+	height: 50px;
+}
+.nav .logo{
+	width:185px;
+	height:46px;
+	float:left;	
+	margin-top:20px;
+	margin-left:20px;
+	_display:inline;
+	
+}
+.logo a{
+	display:block;
+	width:185px;
+	height:46px;
+	background:url(../img/logo18546.png) no-repeat;
+	text-indent:-9999px;
+}
+
+.nav>ul{
+	float: right;
+	margin-top: 30px;
+	
+}
+.nav ul li{
+	width: 124px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	float:left;
+	text-align: center;
+	position: relative;	
+	z-index: 100;
+	
+}
+.nav ul li ul{
+	width: 124px;
+	float:left;
+	display: none;
+	border-top: 6px solid #b81b22;	
+}
+.nav ul li ul li{
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;	
+}
+
+
+.banner{
+    width: 1500px;
+    height: 535px;
+    background: #e8e9e5;
+    position: relative;
+    margin-top: 50px;
+}
+.banner img{
+	height: 535px;
+	width: 1500px;
+}
+.box{
+	position:relative;
+}
+.box li{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.uu{
+    position: absolute;
+    right: 620px;
+    bottom: 20px;
+    width: 190px;
+}
+.uu li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: default;
+    background-color: #dddddd;
+}
+.uu li.current{
+    background-color: #a10000;
+}
+#award_wrapper{
+	height: 70px;
+}
+.award{
+	height: 70px;
+	background: #ef0916;
+	margin: 50px 5px 28px 10px;
+	position: relative;
+}
+.award a:nth-child(1){
+	font-size: 38px;
+	color: #FFFFFF;
+	line-height: 70px;
+	position: absolute;
+	left: 185px;	
+}
+.award a:nth-child(2){
+	width: 265px;
+	height: 50px;
+	background: #FFFFFF;
+	font-size: 38px;
+	color: #ef0a15;
+	line-height: 50px;
+	position: absolute;
+	right: 115px;
+	border-radius: 5px;
+	margin-top: 10px;
+		
+}
+#seckill_wrapper{
+	height: 80px;
+}
+.seckill{
+	height: 80px;
+	background: #fb4e54;
+	margin-top:28px ;
+	position: relative;
+}
+.seckill .special{
+	width: 1000px;
+	height: 80px;
+	background: url(../img/mm.jpg) no-repeat;
+	background-size: 1500px 80px;
+	margin-top: 10px;
+}
+#showTime{
+	height: 80px;
+	width: 500px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 26px;
+	line-height: 80px;
+	color: #FFFFFF;
+	
+}
+.details div{
+	display: flex;
+	justify-content: space-between;
+}	
+.details div img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}																																													        ol{
+																																														            position: absolute;
+																																														            right: 0;
+																																														            bottom: 10px;
+																																														            width: 190px;
+																																														        }
+																																														        ol li{
+																																														            float: left;
+																																														            width: 20px;
+																																														            height: 20px;
+																																														            margin: 0 5px;
+																																														            text-align: center;
+																																														            border-radius: 50%;
+																																														            cursor: default;
+																																														            background-color: #abc;
+																																														        }
+																																														        ol li.current{
+																																														            background-color: pink;
+																																														        }
+

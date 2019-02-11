@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/loginindex.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<body>
+		<div id="header_wrapper">
+			<div class="header content">
+				<div class="logo">
+					<a href="#">凡客</a>
+				</div>
+				<div class="help">
+					<a href="#">帮助</a>
+					
+				</div>
+
+
+			</div>
+		</div>
+		<div id="main_wrappper">
+			<div class="main content">
+				<div class="img">
+					<img src="img/xhsm_19.jpg" />
+				</div>
+				<div class="registerMain">
+					<div class="type">
+						<div class="pt">普通登陆</div>
+						<div class="ks">快速登陆</div>
+					</div>
+					<div class="login">
+						<form action="php/login.php" id="form" method="get">
+							<input type="text" id="uname" name="uName" placeholder="请输入用户名" /><br />
+							<input type="password" id="pwd" name="pwd" placeholder="请输入密码" /><br />
+							<p><a href="#">找回密码</a></p>
+							<input type="submit" class="t1" placeholder="登陆了" />
+							
+						</form>
+					</div>
+					<div class="login2">
+						<form action="php/login.php" method="get">
+							<input type="text"   name="uName" placeholder="输入手机号码" /><input type="text" placeholder="获取短信验证码"/><br />
+							<input type="text"  placeholder="验证码" />
+					  			<span id="yz" style=" background:url(img/1.png) 0px 0px;font-size:18px;width:140px;text-align: center; height: 54px;line-height:54px;border: 1px solid #919191;margin: 5px 0 0 10px; display: inline-block;"></span>
+					  			<a href="javascript:;" id='btn'>看不清</a>						
+								<br />
+							<input type="password" name="pwd" placeholder="请输入手机验证码"/><br />
+							<input type="submit" class="t2" placeholder="登陆了" />
+							
+						</form>
+					</div>
+					<div class="icons">
+						<a href="#"><img src="img/w1.jpg" /></a>
+						<a href="#"><img src="img/w2.jpg" /></a>
+						
+					</div>
+
+					
+				</div>
+				
+			</div>
+		</div>
+		<script type="text/javascript" src="js/public.js" ></script>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/login.js">
+			
+		</script>
+	</body>
+</html>
